@@ -12,7 +12,7 @@
 VNPY官网： 
 http://www.vnpy.cn
 
-入门看这篇：
+入门看这篇 （VNPY知乎官方公众号）：
 https://zhuanlan.zhihu.com/p/166244874
 
 
