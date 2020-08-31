@@ -6,10 +6,16 @@
  
  ![Image text](https://pic3.zhimg.com/v2-424952281b14af2b4f458ccd2792b6aa_1440w.jpg?source=172ae18b)
  
- 
-VNPY官网： http://www.vnpy.cn
+ ![Image text](https://pic4.zhimg.com/v2-1fcfaa8fa9f84886bee287fbd1a0414d_1440w.jpg?source=172ae18b)
+  
+  
+VNPY官网： 
+http://www.vnpy.cn
 
-入门看这篇：https://zhuanlan.zhihu.com/p/166244874
+入门看这篇：
+https://zhuanlan.zhihu.com/p/166244874
+
+
 
 VNPY扎根于国内合规期货市场和A股市场，为金融机构和量化爱好者提供全系列的量化产品线， 包含了历史行情数据、实时行情数据、仿真回测、商业化软件（资管系统、跟单软件）。
 
