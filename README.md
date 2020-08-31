@@ -1,8 +1,12 @@
 # vnpy-pro
 
 
-http://www.vnpy.cn/comm/assets/uploads/files/1596162847252-48bb2191-376d-42d3-85d0-4e8556587c6f-%E5%9B%BE%E7%89%87.png
 
+ ![VNPYlogo](http://www.vnpy.cn/comm/assets/uploads/files/1596162847252-48bb2191-376d-42d3-85d0-4e8556587c6f-%E5%9B%BE%E7%89%87.png)
+ 
+ 
+ 
+ 
 VNPY官网： http://www.vnpy.cn
 VNPY扎根于国内合规期货市场和A股市场，为金融机构和量化爱好者提供全系列的量化产品线， 包含了历史行情数据、实时行情数据、仿真回测、商业化软件（资管系统、跟单软件）。
 
@@ -16,6 +20,13 @@ http://www.vnpy.cn
 无论是你自己开发的CTP系统还是CTP框架，甚至是快期V2交易客户端，都可以通过替换dll方式接入VNPY仿真柜台柜台。
 
 VNPY仿真回测系统开创了第4类回测，并且受国家专利法保护。
+
+
+原生API典型C++策略和通过VNPY仿真柜台实现回测的架构对比
+
+ ![VNPYlogo](http://www.vnpy.cn/img/d1.gif)
+ 
+ ![VNPYlogo](http://www.vnpy.cn/img/d2.gif)
 
 VNPY仿真回测这项底层仿真回测技术是和编程语言无关的，并且没有第3方平台提供的方法，可以在不修改原有代码的前提下实现回测。
 
