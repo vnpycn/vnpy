@@ -4,7 +4,7 @@
 
  ![VNPYlogo](http://www.vnpy.cn/comm/assets/uploads/files/1596162847252-48bb2191-376d-42d3-85d0-4e8556587c6f-%E5%9B%BE%E7%89%87.png)
  
- ![Image text](https://pic3.zhimg.com/v2-424952281b14af2b4f458ccd2792b6aa_1440w.jpg?source=172ae18b)
+
  
  ![Image text](https://pic4.zhimg.com/v2-1fcfaa8fa9f84886bee287fbd1a0414d_1440w.jpg?source=172ae18b)
   
@@ -29,7 +29,6 @@ http://www.vnpy.cn
 无论是你自己开发的CTP系统还是CTP框架，甚至是快期V2交易客户端，都可以通过替换dll方式接入VNPY仿真柜台柜台。
 
 VNPY仿真回测系统开创了第4类回测，并且受国家专利法保护。
-
 
 原生API典型C++策略和通过VNPY仿真柜台实现回测的架构对比
 
@@ -109,7 +108,7 @@ PreSettlementPrice (上次结算价)
 
  
 专利说明
-
+ ![Image text](https://pic3.zhimg.com/v2-424952281b14af2b4f458ccd2792b6aa_1440w.jpg?source=172ae18b)
 
  ![Image text](https://pic2.zhimg.com/80/v2-7ba2f6fb5a04a2c6b9d99061bb0bfeba_720w.jpg)
 
@@ -121,8 +120,7 @@ PreSettlementPrice (上次结算价)
  
  ![Image text](https://pic1.zhimg.com/80/v2-48231226480933de7b7998519f57071a_720w.jpg)
  
- 
-  ![Image text](https://pic4.zhimg.com/80/v2-2e9930d0fbdcf75f41fa0cd7821993f2_720w.jpg)
+ ![Image text](https://pic4.zhimg.com/80/v2-2e9930d0fbdcf75f41fa0cd7821993f2_720w.jpg)
  
  
  
