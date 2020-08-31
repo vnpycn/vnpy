@@ -4,10 +4,13 @@
 
  ![VNPYlogo](http://www.vnpy.cn/comm/assets/uploads/files/1596162847252-48bb2191-376d-42d3-85d0-4e8556587c6f-%E5%9B%BE%E7%89%87.png)
  
-  ![Image text](https://pic3.zhimg.com/v2-424952281b14af2b4f458ccd2792b6aa_1440w.jpg?source=172ae18b)
+ ![Image text](https://pic3.zhimg.com/v2-424952281b14af2b4f458ccd2792b6aa_1440w.jpg?source=172ae18b)
  
  
 VNPY官网： http://www.vnpy.cn
+
+入门看这篇：https://zhuanlan.zhihu.com/p/166244874
+
 VNPY扎根于国内合规期货市场和A股市场，为金融机构和量化爱好者提供全系列的量化产品线， 包含了历史行情数据、实时行情数据、仿真回测、商业化软件（资管系统、跟单软件）。
 
 
@@ -117,6 +120,12 @@ PreSettlementPrice (上次结算价)
  
  
  
- 
+VNPY Virtualapi CTP仿真回测.支持的操作系统
+
+VNPY底层仿真回测系统支持Windows操作系统,版本要求Windows7、Windows2008及以上。
+
+VNPY CTP仿真回测.支持语言框架
+
+支持各种自编CTP程序和各种编程语言框架，例如C++、Python、JAVA、C#等。 支持海风、VNPY、Quicklib、PyCTP等所有框架和自编程序。 上海期货交易所只提供了 C++原生DLL，对于其他语言均是第三方封装了，只能称为CTP框架。 当然对于各种CTP 编程语言框架，例如Python框架、Java框架、C#框架等，VNPY仿真柜台的实现是一样的，因为这些语言的框架本质上还是调用C++的库文件。
 
 
