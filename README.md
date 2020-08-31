@@ -15,6 +15,9 @@ http://www.vnpy.cn
 入门看这篇 （VNPY知乎官方公众号）：
 https://zhuanlan.zhihu.com/p/166244874
 
+VNPY专利技术保护方案（VNPY知乎官方公众号）：
+https://zhuanlan.zhihu.com/p/171997958
+
 
 
 VNPY扎根于国内合规期货市场和A股市场，为金融机构和量化爱好者提供全系列的量化产品线， 包含了历史行情数据、实时行情数据、仿真回测、商业化软件（资管系统、跟单软件）。
