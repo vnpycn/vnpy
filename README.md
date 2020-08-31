@@ -4,7 +4,7 @@
 
  ![VNPYlogo](http://www.vnpy.cn/comm/assets/uploads/files/1596162847252-48bb2191-376d-42d3-85d0-4e8556587c6f-%E5%9B%BE%E7%89%87.png)
  
- 
+  ![Image text](https://pic3.zhimg.com/v2-424952281b14af2b4f458ccd2792b6aa_1440w.jpg?source=172ae18b)
  
  
 VNPY官网： http://www.vnpy.cn
@@ -99,6 +99,24 @@ PreOpenInterest (昨持仓),
 PreSettlementPrice (上次结算价)
 
  
-版权说明  
+专利说明
 
-MIT
+
+ ![Image text](https://pic2.zhimg.com/80/v2-7ba2f6fb5a04a2c6b9d99061bb0bfeba_720w.jpg)
+
+ ![Image text](https://pic4.zhimg.com/80/v2-2eb2842578eddbf7e7f37849c4c645bc_720w.jpg)
+ 
+ ![Image text](https://pic1.zhimg.com/80/v2-7dd2cd520a1e972f5cddc9342d64283d_720w.jpg)
+
+ ![Image text](https://picb.zhimg.com/80/v2-c69b341c6a941160bfd04b2d4a287707_720w.jpg)
+ 
+ ![Image text](https://pic1.zhimg.com/80/v2-48231226480933de7b7998519f57071a_720w.jpg)
+ 
+ 
+  ![Image text](https://pic4.zhimg.com/80/v2-2e9930d0fbdcf75f41fa0cd7821993f2_720w.jpg)
+ 
+ 
+ 
+ 
+
+
