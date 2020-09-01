@@ -35,6 +35,12 @@ VNPY并没有采用市场上各种量化交易框架常用的架构，由于VNPY
 
 VNPY仿真回测目前主要提供了基于CTP接口（支持商品期货、股指期货、商品期权、股指期权）的仿真。
 
+回测3分钟，4小时数据，日内策略采用了A,B2套不同的止损方案对比
+
+ ![VNPYlogo](http://www.vnpy.cn/img/f1.gif)
+ ![VNPYlogo](http://www.vnpy.cn/img/f2.gif)
+
+
  如果要快速理解VNPY仿真柜台做了什么，可以看下面2张图，即原生API典型C++策略和通过VNPY仿真柜台实现回测的架构对比
 
  ![VNPYlogo](http://www.vnpy.cn/img/d1.gif)
