@@ -90,8 +90,8 @@ VNPY仿真柜台实现量化回测对比前三类量化软件回测具备极大�
  ![VNPYlogo](http://www.vnpy.cn/f4.png?t=1)
 
 数据回放至2019年12月17日
- ![VNPYlogo](http://www.vnpy.cn/f5.png?t=1)
- ![VNPYlogo](http://www.vnpy.cn/f6.png?t=1)
+ ![VNPYlogo](http://www.vnpy.cn/f5.png?t=2)
+ ![VNPYlogo](http://www.vnpy.cn/f6.png?t=2)
 
  如果要快速理解VNPY仿真柜台做了什么，可以看下面2张图，即原生API典型C++策略和通过VNPY仿真柜台实现回测的架构对比
 
