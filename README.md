@@ -235,12 +235,15 @@ VNPY仿真柜台版权归http://www.vnpy.cn 经营者所有
 
 ## 附加课程1：《C++ ctp策略程序接入VNPY仿真柜台实现回测步骤》
 1.下载VNPY仿真柜台
+
 （1）从VNPY官网下载
+
  http://www.vnpy.cn 
  
  ![VNPYlogo](https://pic4.zhimg.com/80/v2-7a6f0bd21f35fad7c4e52837c7f5a463_720w.jpg)
 
 （2）从Github 下载
+
 https://github.com/vnpycn/vnpy-pro
 
 ![VNPYlogo](http://www.vnpy.cn/v1.png?t=1)
