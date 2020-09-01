@@ -125,8 +125,7 @@ VNPY仿真回测系统提供了基础免费版本，对所有人免费。
 VNPY仿真回测柜台在VNPY开源框架基础以外，真正实现了和平台无关的基于TICK级的精细化回测
 
 
-VNPY仿真柜台官网是
-VNPY承诺只做国内合规市场的服务
+VNPY仿真柜台官网是，承诺只做国内合规市场的服务
 http://www.vnpy.cn
 而域名后缀为com的那个网站是做数字货币的非合规市场的外援网站，并非VNPY官网。
 
@@ -140,10 +139,11 @@ VNPY仿真柜台支持股指期货仿真回测，支持商品期货仿真回测�
 VNPY仿真柜台支持多种编程语言，开创了第4类回测。
 
 VNPY仿真柜台的用法快速入门可以参考这篇文章
-《VNPY CTP 仿真柜台怎么用来实现CTP 程序TICK级回测》
+
+## 《VNPY CTP 仿真柜台怎么用来实现CTP 程序TICK级回测》
 http://www.vnpy.cn/comm/topic/3401/
 
-VNPY的专利技术可以在VNPY知乎官方专栏查看
+## VNPY的专利技术可以在VNPY知乎官方专栏查看
 
 https://www.zhihu.com/org/vnpy/posts
 
