@@ -317,8 +317,8 @@ https://github.com/vnpycn/vnpy-pro
 （3）暂时不支持多合约测试，计划未来版本支持；
 （4）暂时不支持套利测试，计划未来版本支持；
 
-比如图中是./Data/20180627/rb1810.csv
-就必须在C++代码订阅的是rb1810这个合约，目前Virtualapi不支持订阅多合约和套利合约，。
+比如图中是./Data/20200627/rb2011.csv
+就必须在C++代码订阅的是rb2011这个合约，目前Virtualapi不支持订阅多合约和套利合约，。
 
  ![VNPYlogo](https://pic4.zhimg.com/80/v2-c616569b33f16b7d4edc2b16b11664e3_720w.jpg)
  
