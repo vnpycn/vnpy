@@ -233,3 +233,23 @@ VNPY仿真柜台版权归http://www.vnpy.cn 经营者所有
 
 
 
+## 附加课程：《vnpy  CTP框架 接入VNPY仿真柜台实现回测步骤》
+1.下载VNPY仿真柜台
+
+
+
+2. 下载vnpy开源框架：
+
+https://github.com/vnpycn/vnpy 
+
+下载后可以看到一堆乱七八糟的东西
+
+我们只用VNPY开源框架中的CTP接口，通过替换CTP DLL来实现回测
+
+
+
+
+
+
+
+
