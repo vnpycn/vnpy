@@ -38,11 +38,7 @@ VNPY仿真回测目前主要提供了基于CTP接口（支持商品期货、股�
 回测3分钟(4小时TICK数据)，趋势策略采用了A,B2套不同的止损方案对比
 合约上海期货交易所 ni2003   2019年11月4日~2019年12月31日这段时间的TICK数据进行回测，资金曲线图如下所示：
 
- ![VNPYlogo](http://www.vnpy.cn/f1.png)
- ![VNPYlogo](http://www.vnpy.cn/f2.png)
- 
- ![VNPYlogo](http://www.vnpy.cn/f3.png)
- ![VNPYlogo](http://www.vnpy.cn/f4.png)
+
 
  如果要快速理解VNPY仿真柜台做了什么，可以看下面2张图，即原生API典型C++策略和通过VNPY仿真柜台实现回测的架构对比
 
