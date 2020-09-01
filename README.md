@@ -233,7 +233,7 @@ VNPY仿真柜台版权归http://www.vnpy.cn 经营者所有
 
 
 
-## 附加课程：《vnpy  CTP框架 接入VNPY仿真柜台实现回测步骤》
+## 附加课程1：《C++ ctp策略程序接入VNPY仿真柜台实现回测步骤》
 1.下载VNPY仿真柜台
 （1）从VNPY官网下载
  http://www.vnpy.cn 
@@ -275,9 +275,13 @@ https://github.com/vnpycn/vnpy-pro
 
  ![VNPYlogo](https://picb.zhimg.com/80/v2-c39142f1a28a785b549331270a973306_720w.jpg)
 
+## 附加课程2：《快期接入VNPY仿真柜台原理实现》
 
+待定
 
-2. 下载vnpy开源框架：
+## 附加课程3：《VNPY CTP  Python框架接入VNPY仿真柜台实现回测步骤》
+
+1. 下载vnpy开源框架：
 
 https://github.com/vnpycn/vnpy 
 
