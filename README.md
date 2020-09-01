@@ -1,10 +1,7 @@
 # vnpy-pro
 
-
  ![VNPYlogo](http://www.vnpy.cn/comm/assets/uploads/files/1596162847252-48bb2191-376d-42d3-85d0-4e8556587c6f-%E5%9B%BE%E7%89%87.png)
  
-  
-  
 ## VNPY官网 ：
 http://www.vnpy.cn
 
@@ -21,6 +18,16 @@ VNPY官方扎根于国内合规期货市场和A股市场，为金融机构和量
 VNPY仿真回测系统在现有3类回测方案基础上开创性的提出了第4类回测，并提供了VNPY仿真回测柜台，本产品受国家专利法保护，但可以免费下载和使用。
 
  ![Image text](https://pic4.zhimg.com/v2-1fcfaa8fa9f84886bee287fbd1a0414d_1440w.jpg?source=172ae18b)
+ 
+ 
+## 支持的操作系统
+
+VNPY底层仿真回测系统支持Windows操作系统,版本要求Windows7、Windows2008及以上。
+
+## 支持语言和CTP框架
+
+对于各种CTP 编程语言框架，例如Python框架、Java框架、C#框架等，VNPY仿真柜台的实现是一样的，因为这些语言的框架本质上还是调用C++的库文件。
+支持各种自编CTP程序和各种编程语言框架，例如C++、Python、JAVA、C#等。 支持 VN.PY、 PyCTP等所有框架和自编程序。 上海期货交易所只提供了 C++原生DLL，对于其他语言均是第三方封装了，只能称为CTP框架。  
  
  
 ## 列举当前市场上包括VNPY仿真柜台回测系统在内的四类回测架构：
@@ -194,16 +201,6 @@ PreSettlementPrice (上次结算价)
  ![Image text](https://pic4.zhimg.com/80/v2-2e9930d0fbdcf75f41fa0cd7821993f2_720w.jpg)
  
 
-
- 
-VNPY Virtualapi CTP仿真回测.支持的操作系统
-
-VNPY底层仿真回测系统支持Windows操作系统,版本要求Windows7、Windows2008及以上。
-
-VNPY CTP仿真回测.支持语言框架
-
-对于各种CTP 编程语言框架，例如Python框架、Java框架、C#框架等，VNPY仿真柜台的实现是一样的，因为这些语言的框架本质上还是调用C++的库文件。
-支持各种自编CTP程序和各种编程语言框架，例如C++、Python、JAVA、C#等。 支持 VN.PY、 PyCTP等所有框架和自编程序。 上海期货交易所只提供了 C++原生DLL，对于其他语言均是第三方封装了，只能称为CTP框架。  
 
 
 ## 商业版本请访问
