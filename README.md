@@ -284,13 +284,6 @@ https://github.com/vnpycn/vnpy-pro
 
 ## 附加课程3：《VNPY CTP  Python框架接入VNPY仿真柜台实现回测步骤》
 
-1. 下载vnpy开源框架：
-
-https://github.com/vnpycn/vnpy 
-
- ![VNPYlogo](http://www.vnpy.cn/v2.png?t=1)
-
-下载后可以看到一堆乱七八糟的东西
 
 我们只用VNPY开源框架中的CTP接口，通过替换CTP DLL来实现回测
 
