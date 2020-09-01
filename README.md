@@ -282,6 +282,63 @@ https://github.com/vnpycn/vnpy-pro
  ![VNPYlogo](https://picb.zhimg.com/80/v2-c25184b613b388d275254876851c4d00_720w.jpg)
 
  ![VNPYlogo](https://picb.zhimg.com/80/v2-c39142f1a28a785b549331270a973306_720w.jpg)
+ 
+ 
+ 这样编译好的策略程序就可以运行实盘了
+ ![VNPYlogo](https://pic4.zhimg.com/80/v2-8f32d9bd07d5e1cd3e93eb16cbd7682a_720w.jpg)
+
+ 下面来讲解一下这个实盘CTP策略程序 如何结合通过VNPY CTP仿真柜台实现TICK级回测
+ 典型的，CTP的原生API为下图部分
+ 
+  ![VNPYlogo](https://pic3.zhimg.com/80/v2-2a547ad4f1ca97c3f5abd8fe14b199b2_720w.jpg)
+
+ 
+  VNPY仿真柜台的API如下图
+  
+  ![VNPYlogo](https://pic4.zhimg.com/80/v2-7e7318f1a682a599c82877692e1cd495_720w.jpg)
+
+ 
+ 其中.lib文件和.h文件是编译中使用的，.dll文件是编译好后倍AutoTrade.exe调用的，我们要实现实盘转回测只要将.dll文件替换即可。
+ 
+如下图，其中圈红色部门的文件为替换文件，蓝色圈出的文件为VNPY仿真柜台API特有文件，拷贝到该目录下即可。
+（1）setting.ini 手续费和滑点设置文件；
+（2）list.csv 数据文件路径设置文件；
+（3）Graph.exe  资金曲线分时图绘制程序，在运行AutoTrade.exe时会自动打开；
+也可以待回测完成，打开Graph.exe，再将资金曲线数据文件qy.csv拖入Graph.exe窗口，即可绘制资金曲线分时图；
+ 
+ ![VNPYlogo](https://pic4.zhimg.com/80/v2-df5b7d2358c4de051b43324b79ff287b_720w.jpg)
+
+ 
+其中list.csv打开如图所示
+
+特别注意：
+（1）list.csv数据文件里的合约代码，必须和订阅的合约要一致；
+（2）list.csv的数据文件，必须是同一个合约；
+（3）暂时不支持多合约测试，计划未来版本支持；
+（4）暂时不支持套利测试，计划未来版本支持；
+
+比如图中是./Data/20180627/rb1810.csv
+就必须在C++代码订阅的是rb1810这个合约，目前Virtualapi不支持订阅多合约和套利合约，。
+
+ ![VNPYlogo](https://pic4.zhimg.com/80/v2-c616569b33f16b7d4edc2b16b11664e3_720w.jpg)
+ 
+ VNPY For CTP目录和CTP API目录，这2个目录下的DEMO，代码完全一样，仅仅是通过替换了thostmduserapi.lib、thostmduserapi.dll、thosttraderapi.lib、thosttraderapi.dll 这4个文件重新编译，
+将编译好的exe程序目录放入Graph.exe、price.exe、list.csv这3个文件，再次运行AutoTrade.exe 就开始回测了。
+
+
+list.csv保存的是依次读取的tick数据文件的路径。
+通过直接替换CTP的api，同时将list.csv、Graph.exe、price.exe放到程序编译的目录下面。
+直接运行，直接进行回测。
+
+
+qy.csv保存资金曲线数据
+md.csv保存回测期间的分时数据
+clean.bat 运行清理历史数据文件。
+初始资金为50万，暂时不支持修改初始资金。
+
+VNPY仿真柜台设计的原则就是无需在原实盘策略代码做任何修改就可以实现量化交易回测。
+ 
+
 
 ## 附加课程2：《快期接入VNPY仿真柜台原理实现》
 
@@ -290,8 +347,8 @@ https://github.com/vnpycn/vnpy-pro
 ## 附加课程3：《VNPY CTP  Python框架接入VNPY仿真柜台实现回测步骤》
 
 
+待定
 我们只用VNPY开源框架中的CTP接口，通过替换CTP DLL来实现回测
-
 
 
 
