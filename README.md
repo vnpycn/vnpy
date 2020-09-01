@@ -5,7 +5,8 @@
 ## VNPY官网 ：
 http://www.vnpy.cn
 
-## 入门看这篇《VNPY CTP 仿真柜台怎么用来实现CTP 程序TICK级回测》 （VNPY知乎官方公众号）：
+## 入门篇《VNPY CTP 仿真柜台怎么用来实现CTP 程序TICK级回测》 ：
+（来自VNPY知乎官方公众号）
 https://zhuanlan.zhihu.com/p/166244874 
 
 ## VNPY专利技术保护方案（VNPY知乎官方公众号）：
