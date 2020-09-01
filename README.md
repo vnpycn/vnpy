@@ -6,6 +6,13 @@
  
 
  ![Image text](https://pic4.zhimg.com/v2-1fcfaa8fa9f84886bee287fbd1a0414d_1440w.jpg?source=172ae18b)
+ 
+ 
+ 功能特点
+
+    全功能量化交易平台（vnpy.trader），整合了多种交易接口，并针对具体策略算法和功能开发提供了简洁易用的API，用于快速构建交易员所需的量化交易应用。
+
+    覆盖国内外所有交易品种的交易接口（vnpy.gateway）：
   
   
 VNPY官网： 
