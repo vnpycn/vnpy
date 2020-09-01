@@ -1,18 +1,8 @@
 # vnpy-pro
 
 
-
  ![VNPYlogo](http://www.vnpy.cn/comm/assets/uploads/files/1596162847252-48bb2191-376d-42d3-85d0-4e8556587c6f-%E5%9B%BE%E7%89%87.png)
  
-
- ![Image text](https://pic4.zhimg.com/v2-1fcfaa8fa9f84886bee287fbd1a0414d_1440w.jpg?source=172ae18b)
- 
- 
- 功能特点
-
-    全功能量化交易平台（vnpy.trader），整合了多种交易接口，并针对具体策略算法和功能开发提供了简洁易用的API，用于快速构建交易员所需的量化交易应用。
-
-    覆盖国内外所有交易品种的交易接口（vnpy.gateway）：
   
   
 ## VNPY官网 ：
@@ -30,7 +20,9 @@ VNPY官方扎根于国内合规期货市场和A股市场，为金融机构和量
 
 VNPY仿真回测系统在现有3类回测方案基础上开创性的提出了第4类回测，并提供了VNPY仿真回测柜台，本产品受国家专利法保护，但可以免费下载和使用。
 
-
+ ![Image text](https://pic4.zhimg.com/v2-1fcfaa8fa9f84886bee287fbd1a0414d_1440w.jpg?source=172ae18b)
+ 
+ 
 ## 列举当前市场上包括VNPY仿真柜台回测系统在内的四类回测架构：
 
 1.在线回测，这类是基于网站的回测，使用编程语言以Python,javascript为主，可以通过在网站提交代码脚本，在服务商的服务器上进行回测，由此可见这类回测的CPU硬件资源是极其有限的，很难实现基于TICK的高精度回测。而且最为关键的是，代码不是本地运行的，而是依赖第三方平台的方法，而且策略本身没有保密性可言；
