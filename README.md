@@ -59,7 +59,7 @@ VNPY仿真柜台实现量化回测对比前三类量化软件回测具备极大�
 
 而VNPY仿真回测柜台资金曲线是这样的
 
- ![Image text](http://www.vnpy.cn/comm/assets/uploads/files/1598886349349-bc94ac89-81bd-40af-9998-ce4149b80f07-%E5%9B%BE%E7%89%87.png)
+ ![Image text](http://www.vnpy.cn/F0.png)
  
 在采用VNPY仿真回测资金曲线和实盘资金曲线分时图取样资金曲线的比较，几乎达到了99.99%的一致。
 
