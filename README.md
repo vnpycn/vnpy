@@ -235,15 +235,32 @@ VNPY仿真柜台版权归http://www.vnpy.cn 经营者所有
 
 ## 附加课程：《vnpy  CTP框架 接入VNPY仿真柜台实现回测步骤》
 1.下载VNPY仿真柜台
+（1）从VNPY官网下载
+ http://www.vnpy.cn 
+ 
+ ![VNPYlogo](https://pic4.zhimg.com/80/v2-7a6f0bd21f35fad7c4e52837c7f5a463_720w.jpg)
 
+（2）从Github 下载
 https://github.com/vnpycn/vnpy-pro
 
- ![VNPYlogo](http://www.vnpy.cn/v1.png?t=1)
+![VNPYlogo](http://www.vnpy.cn/v1.png?t=1)
+
+2. 下载后解压
+
+![VNPYlogo](https://pic4.zhimg.com/80/v2-90ba6b1dc5ae7001994bde9824c33296_720w.png)
+
+ 解压后有如下2个目录：
+![VNPYlogo](http://www.vnpy.cn/v3.png?t=1)
+
+ 打开第一个目录
+ 这是一个Visual Studio2015 CTP C++  Demo项目
+
+ ![VNPYlogo](https://pic3.zhimg.com/80/v2-7f75997c22354b98ffc0d30cb55fd5c7_720w.jpg)
+
 
 2. 下载vnpy开源框架：
 
 https://github.com/vnpycn/vnpy 
-
 
  ![VNPYlogo](http://www.vnpy.cn/v2.png?t=1)
 
