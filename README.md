@@ -250,12 +250,31 @@ https://github.com/vnpycn/vnpy-pro
 ![VNPYlogo](https://pic4.zhimg.com/80/v2-90ba6b1dc5ae7001994bde9824c33296_720w.png)
 
  解压后有如下2个目录：
+ 
 ![VNPYlogo](http://www.vnpy.cn/v3.png?t=1)
 
  打开第一个目录
  这是一个Visual Studio2015 CTP C++  Demo项目
+ 
 
  ![VNPYlogo](https://pic3.zhimg.com/80/v2-7f75997c22354b98ffc0d30cb55fd5c7_720w.jpg)
+
+双击 .sln文件打开项目
+
+红圈圈出的是期货账户信息
+
+ ![VNPYlogo](https://pic2.zhimg.com/80/v2-44b4ec32559fcc2640bb88b8183e98dc_720w.jpg)
+ 
+ 在项目上右键“重新生成”即可编译为exe程序
+
+ ![VNPYlogo](https://picb.zhimg.com/80/v2-7ce865f35e63aefaf7d2f16e70ff8e48_720w.jpg)
+ 
+ 根据下图类似路径可以找到编译好程序的路径位置
+ 
+ ![VNPYlogo](https://picb.zhimg.com/80/v2-c25184b613b388d275254876851c4d00_720w.jpg)
+
+ ![VNPYlogo](https://picb.zhimg.com/80/v2-c39142f1a28a785b549331270a973306_720w.jpg)
+
 
 
 2. 下载vnpy开源框架：
