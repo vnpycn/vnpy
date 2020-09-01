@@ -175,7 +175,9 @@ PreOpenInterest (昨持仓),
 PreSettlementPrice (上次结算价)
 
 
-## 专利说明
+## 知识产权
+
+专利：
 
  ![Image text](https://pic3.zhimg.com/v2-424952281b14af2b4f458ccd2792b6aa_1440w.jpg?source=172ae18b)
 
@@ -191,7 +193,8 @@ PreSettlementPrice (上次结算价)
  
  ![Image text](https://pic4.zhimg.com/80/v2-2e9930d0fbdcf75f41fa0cd7821993f2_720w.jpg)
  
- 
+
+
  
 VNPY Virtualapi CTP仿真回测.支持的操作系统
 
@@ -201,10 +204,6 @@ VNPY CTP仿真回测.支持语言框架
 
 对于各种CTP 编程语言框架，例如Python框架、Java框架、C#框架等，VNPY仿真柜台的实现是一样的，因为这些语言的框架本质上还是调用C++的库文件。
 支持各种自编CTP程序和各种编程语言框架，例如C++、Python、JAVA、C#等。 支持 VN.PY、 PyCTP等所有框架和自编程序。 上海期货交易所只提供了 C++原生DLL，对于其他语言均是第三方封装了，只能称为CTP框架。  
-
-## 项目捐赠
-
-需强调：这是VNPY For  上期CTP接口仿真回测柜台的免费版本，不接受任何捐赠！任何打着VNPY旗号索取捐赠的均为误导。
 
 
 ## 商业版本请访问
@@ -224,5 +223,11 @@ VNPY仿真柜台版权归http://www.vnpy.cn 经营者所有
 
 ## 合作
 对于具有自营API的券商、期货公司、交易所、第三方软件服务商等其他公司和企业，可通过VNPY官网的联系方式洽谈合作。
+
+
+## 项目捐赠
+
+需强调：这是VNPY For  上期CTP接口仿真回测柜台的免费版本，不接受任何捐赠！任何打着VNPY旗号索取捐赠的均为误导。
+
 
 
