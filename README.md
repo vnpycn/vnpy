@@ -5,8 +5,12 @@
 ## VNPY官网 ：
 http://www.vnpy.cn
 
-## 入门看这篇 （VNPY知乎官方公众号）：
-https://zhuanlan.zhihu.com/p/166244874
+## 入门看这篇《VNPY CTP 仿真柜台怎么用来实现CTP 程序TICK级回测》 （VNPY知乎官方公众号）：
+https://zhuanlan.zhihu.com/p/166244874 
+
+## 《VNPY CTP 仿真柜台怎么用来实现CTP 程序TICK级回测》
+http://www.vnpy.cn/comm/topic/3401/
+
 
 ## VNPY专利技术保护方案（VNPY知乎官方公众号）：
 https://zhuanlan.zhihu.com/p/171997958
@@ -140,8 +144,6 @@ VNPY仿真柜台支持多种编程语言，开创了第4类回测。
 
 VNPY仿真柜台的用法快速入门可以参考这篇文章
 
-## 《VNPY CTP 仿真柜台怎么用来实现CTP 程序TICK级回测》
-http://www.vnpy.cn/comm/topic/3401/
 
 ## VNPY的专利技术可以在VNPY知乎官方专栏查看
 
