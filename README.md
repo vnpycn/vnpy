@@ -322,9 +322,9 @@ https://github.com/vnpycn/vnpy-pro
 
  ![VNPYlogo](https://pic4.zhimg.com/80/v2-c616569b33f16b7d4edc2b16b11664e3_720w.jpg)
  
- VNPY For CTP目录和CTP API目录，这2个目录下的DEMO，代码完全一样，仅仅是通过替换了thostmduserapi.lib、thostmduserapi.dll、thosttraderapi.lib、thosttraderapi.dll 这4个文件重新编译，
-将编译好的exe程序目录放入Graph.exe、price.exe、list.csv这3个文件，再次运行AutoTrade.exe 就开始回测了。
+VNPY For CTP目录和CTP API目录，这2个目录下的DEMO，代码完全一样， 将CTP API中的thostmduserapi.lib、thostmduserapi.dll、thosttraderapi.lib、thosttraderapi.dll 这4个文件替换为VNPY CTP仿真柜台文件后，重新编译，将编译好的exe程序目录放入Graph.exe、price.exe、list.csv这3个文件，再次运行AutoTrade.exe 就开始回测了。
 
+实际操作中 ，还可以简化，由于VNPY for  CTP库文件中，.h、.lib和CTP的一致，只要替换dll接口，这样就意味着连策略程序只需替换thostmduserapi.dll、thosttraderapi.dll这2个文件即可实现回测，当然setting.ini 、list.csv、Graph.exe 、price.exe也要放到程序目录下，即转为了仿真回测柜台。
 
 list.csv保存的是依次读取的tick数据文件的路径。
 通过直接替换CTP的api，同时将list.csv、Graph.exe、price.exe放到程序编译的目录下面。
