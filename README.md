@@ -35,19 +35,24 @@ VNPY仿真回测系统在现有3类回测方案基础上开创性的提出了第
 
 ## 从CTP小白到实盘3个步骤
 
-（1）通过SIMNOW模拟账户开发测试，这一个阶段主要是功能测试
-（2）通过VNY仿真回测柜台做功能测试，这一个阶段主要是策略验证
-（3）实盘交易
+（1）通过SIMNOW模拟账户开发测试，这一个阶段主要是功能测试；
+
+（2）通过VNY仿真回测柜台做功能测试，这一个阶段主要是策略验证；
+
+（3）实盘交易；
 
 
 如果需要先开发和测试，不用实盘交易的话，可以采用上期CTP的模拟账户进行测试和开发，相关网址链接如下：
 上海期货交易所SIMNOW  CTP模拟账户注册地址
+
 http://www.simnow.com.cn/
 
 CTP最新的原生API和说明文档也可以从这个网站下载
+
 http://www.simnow.com.cn/static/softwareDownload.action/
 
 模拟账户对应的客户端软件从这里下载，包含了Window API和Linux API
+
 http://www.simnow.com.cn/static/softwareOthersDownload.action/
 
  
