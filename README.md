@@ -241,15 +241,53 @@ VNPY是一套基于Python的开源量化交易系统开发框架， 在开源社
  
  
  
- By Traders, For Traders.
 
-vn.py是一套基于Python的开源量化交易系统开发框架，于2015年1月正式发布，在开源社区6年持续不断的贡献下一步步成长为全功能量化交易平台，目前国内外金融机构用户已经超过600家，包括：私募基金、证券自营和资管、期货资管和子公司、高校研究机构、自营交易公司、交易所、Token Fund等。
  
  
  
 
 分7个目录2017.11~2018.11期货全品种TICK数据解压后100Gb（DataCollect格式）百度网盘下载
 网盘下载的数据 CSV数据文件字段顺序：
+
+
+
+
+
+
+
+除了基于VN Station的图形化启动方式外，也可以在任意目录下创建run.py，写入以下示例代码：
+
+from vnpy.event import EventEngine
+from vnpy.trader.engine import MainEngine
+from vnpy.trader.ui import MainWindow, create_qapp
+from vnpy.gateway.ctp import CtpGateway
+from vnpy.app.cta_strategy import CtaStrategyApp
+from vnpy.app.cta_backtester import CtaBacktesterApp
+
+def main():
+    """Start VN Trader"""
+    qapp = create_qapp()
+
+    event_engine = EventEngine()
+    main_engine = MainEngine(event_engine)
+    
+    main_engine.add_gateway(CtpGateway)
+    main_engine.add_app(CtaStrategyApp)
+    main_engine.add_app(CtaBacktesterApp)
+
+    main_window = MainWindow(main_engine, event_engine)
+    main_window.showMaximized()
+
+    qapp.exec()
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
+
 localtime (本机写入TICK的时间),
 
 InstrumentID (合约名),
