@@ -10,12 +10,35 @@ http://www.vnpy.cn
 https://zhuanlan.zhihu.com/p/166244874 
 
 ## VNPY专利技术保护方案（VNPY知乎官方公众号）：
-https://zhuanlan.zhihu.com/p/171997958
+https://zhuanlan.zhihu.com/p/171997958 
 
 VNPY官方扎根于国内合规期货市场和A股市场，为金融机构和量化爱好者提供全系列的量化产品线， 包含了历史行情数据、实时行情数据、仿真回测、商业化软件（资管系统、跟单软件）。
 其中推出的VNPY For  CTP接口仿真柜台是VNPY官方的主打产品，这款产品的设计理念是“精细化回测”，自2018年推出以来受到了广大量化交易爱好者的喜爱，尤其是职业量化交易团队和量化私募基金的青睐。
 
 VNPY仿真回测系统在现有3类回测方案基础上开创性的提出了第4类回测，并提供了VNPY仿真回测柜台，本产品受国家专利法保护，但可以免费下载和使用。
+
+## 从CTP小白到实盘3个步骤
+
+（1）通过SIMNOW模拟账户开发测试，这一个阶段主要是功能测试；
+
+（2）通过VNY仿真回测柜台做功能测试，这一个阶段主要是策略验证；
+
+（3）实盘交易；
+
+
+如果需要先开发和测试，不用实盘交易的话，可以采用上期CTP的模拟账户进行测试和开发，相关网址链接如下：
+上海期货交易所SIMNOW  CTP模拟账户注册地址
+
+http://www.simnow.com.cn/
+
+CTP最新的原生API和说明文档也可以从这个网站下载
+
+http://www.simnow.com.cn/static/softwareDownload.action/
+
+模拟账户对应的客户端软件从这里下载，包含了Window API和Linux API
+
+http://www.simnow.com.cn/static/softwareOthersDownload.action/
+
 
 ##  金融行业有句名言：如果不能募资，则量化交易投资生涯毫无意义。
 
@@ -51,29 +74,6 @@ VNPY仿真回测系统在现有3类回测方案基础上开创性的提出了第
  ![Image text](https://pic4.zhimg.com/v2-1fcfaa8fa9f84886bee287fbd1a0414d_1440w.jpg?source=172ae18b)
  
 目前期货的量化交易环境是比较完善的，上海期货交易所推出了免费的CTP API接口多年，也是影响最大和使用最广泛的期货API接口，也使得一大批期货交易爱好者从接触CTP的那一刻起就义无反顾的开始了自己的量化交易之路。
-
-## 从CTP小白到实盘3个步骤
-
-（1）通过SIMNOW模拟账户开发测试，这一个阶段主要是功能测试；
-
-（2）通过VNY仿真回测柜台做功能测试，这一个阶段主要是策略验证；
-
-（3）实盘交易；
-
-
-如果需要先开发和测试，不用实盘交易的话，可以采用上期CTP的模拟账户进行测试和开发，相关网址链接如下：
-上海期货交易所SIMNOW  CTP模拟账户注册地址
-
-http://www.simnow.com.cn/
-
-CTP最新的原生API和说明文档也可以从这个网站下载
-
-http://www.simnow.com.cn/static/softwareDownload.action/
-
-模拟账户对应的客户端软件从这里下载，包含了Window API和Linux API
-
-http://www.simnow.com.cn/static/softwareOthersDownload.action/
-
 
 
 ## CTP实盘、SINOW模拟账户、VNPY CTP仿真柜台 三者成交机制的异同
