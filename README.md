@@ -447,7 +447,12 @@ VNPY仿真柜台设计的原则就是无需在原实盘策略代码做任何修�
 
 ## 附加课程3：《VNPY CTP  Python框架接入VNPY仿真柜台实现回测步骤》
 
-把VNPY CTP开源框架下的所有CTP文件替换为VNPY仿真柜台提供的同名DLL文件，即可实现回测。
+VNPY 开源框架是针对Python封装的框架，而VNPY仿真柜台不仅限于Python，他支持各种编程语言的框架。
+如何实现VNPY开源框架通过VNPY仿真柜台实现回测呢？
+
+很简单，只要把VNPY CTP开源框架下的所有CTP文件thostmduserapi_se.dll、thosttraderapi_se.dll替换为VNPY仿真柜台提供的同名DLL文件，并将setting.ini、list.csv、Graph.exe这3个文件复制到程序目录，再以运行即可实现接入仿真柜台进行回测。
+
+只需花1分钟时间，就可以将VNPY开源框架的实盘策略转换为TICK级回测。
 
 
  
