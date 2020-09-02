@@ -93,7 +93,9 @@ VNPY仿真柜台实现量化回测对比前三类量化软件回测具备极大�
  ![VNPYlogo](http://www.vnpy.cn/f5.png?t=2)
  ![VNPYlogo](http://www.vnpy.cn/f6.png?t=2)
  
- ![VNPYlogo](http://www.vnpy.cn/f7.png?t=2)
+ 该大类趋势策略，通过30组子方案得测试优化，获得效果最好得7个子策略，可完美用于实盘
+ ![VNPYlogo](http://www.vnpy.cn/f7.png?t=3)
+ 
  如果要快速理解VNPY仿真柜台做了什么，可以看下面2张图，即原生API典型C++策略和通过VNPY仿真柜台实现回测的架构对比
 
  ![VNPYlogo](http://www.vnpy.cn/img/d1.gif)
