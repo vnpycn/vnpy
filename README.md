@@ -415,13 +415,23 @@ VNPY仿真柜台设计的原则就是无需在原实盘策略代码做任何修�
  下载后安装完毕，桌面出现图标
  ![VNPYlogo](http://www.vnpy.cn/v10.png)
  
- 我们看下快期安装目录，其实这不是快期真正的目录
+ 我们看下快期安装目录，但这并不是CTP核心文件目录
  
  我们进入到C盘用户的目录下寻找AppData目录，快期真正的核心程序保存在这个目录下，但AppData默认是隐藏的，我们需要开启文件选项
   ![VNPYlogo](http://www.vnpy.cn/v11.png)
  
  
  再进入AppData目录，可以看到多个快期的安装目录，
+ 其中
+ Q72_dfqh_2_standard   表示东方期货的快期V2版本
+ Q72_ebfcn_1_standard  表示光大期货的快期V2版本
+ Q73_gfqh_2_standard   表示广发期货的快期V2版本
+ Q72_hongyuanqh_1_standard  表示宏源期货的快期V2版本
+
+我你们以宏源期货的快期为例，进入到 Q72_hongyuanqh_1_standard 目录下
+ 
+
+ 
  ![VNPYlogo](http://www.vnpy.cn/v12.png)
  
  
