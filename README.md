@@ -236,107 +236,36 @@ VNPY是一套基于Python的开源量化交易系统开发框架， 在开源社
  
  ![Image text](http://www.vnpy.cn/img/pic_history.jpg)
  
- 通过VNPY提供得数据采集工具和数据下载，可以完美解决VNPY仿真回测系统得回测数据得问题。
+通过VNPY提供得数据采集工具和数据下载，可以完美解决VNPY仿真回测系统得回测数据得问题。
  
- 
- 
- 
-
- 
- 
- 
-
 分7个目录2017.11~2018.11期货全品种TICK数据解压后100Gb（DataCollect格式）百度网盘下载
 网盘下载的数据 CSV数据文件字段顺序：
 
 
-
-
-
-
-
-除了基于VN Station的图形化启动方式外，也可以在任意目录下创建run.py，写入以下示例代码：
-
-from vnpy.event import EventEngine
-from vnpy.trader.engine import MainEngine
-from vnpy.trader.ui import MainWindow, create_qapp
-from vnpy.gateway.ctp import CtpGateway
-from vnpy.app.cta_strategy import CtaStrategyApp
-from vnpy.app.cta_backtester import CtaBacktesterApp
-
-def main():
-    """Start VN Trader"""
-    qapp = create_qapp()
-
-    event_engine = EventEngine()
-    main_engine = MainEngine(event_engine)
-    
-    main_engine.add_gateway(CtpGateway)
-    main_engine.add_app(CtaStrategyApp)
-    main_engine.add_app(CtaBacktesterApp)
-
-    main_window = MainWindow(main_engine, event_engine)
-    main_window.showMaximized()
-
-    qapp.exec()
-
-if __name__ == "__main__":
-    main()
-
-
-
-
-
-
-localtime (本机写入TICK的时间),
-
-InstrumentID (合约名),
-
-TradingDay (交易日),
-
-ActionDay (业务日期),
-
-UpdateTime （时间）,
-
-UpdateMillisec（时间毫秒）,
-
-LastPrice （最新价）,
-
-Volume（成交量） ,
-
-HighestPrice （最高价）,
-
-LowestPrice（最低价） ,
-
-OpenPrice（开盘价） ,
-
-ClosePrice（收盘价）,
-
-AveragePrice（均价）,
-
-AskPrice1（申卖价一）,
-
-AskVolume1（申卖量一）,
-
-BidPrice1（申买价一）,
-
-BidVolume1（申买量一）,
-
-UpperLimitPrice（涨停板价）,
-
-LowerLimitPrice（跌停板价）,
-
-OpenInterest（持仓量）,
-
-Turnover（成交金额）,
-
-PreClosePrice (昨收盘),
-
-PreOpenInterest (昨持仓),
-
-PreSettlementPrice (上次结算价)
-
-
+    localtime (本机写入TICK的时间),
+    InstrumentID (合约名),
+    TradingDay (交易日),
+    ActionDay (业务日期),
+    UpdateTime （时间）,
+    UpdateMillisec（时间毫秒）,
+    LastPrice （最新价）,
+    Volume（成交量） ,
+    HighestPrice （最高价）,
+    LowestPrice（最低价） ,
+    OpenPrice（开盘价） ,
+    ClosePrice（收盘价）,
+    AveragePrice（均价）,
+    AskPrice1（申卖价一）,
+    AskVolume1（申卖量一）,
+    BidPrice1（申买价一）,
+    BidVolume1（申买量一）,
+    UpperLimitPrice（涨停板价）,
+    LowerLimitPrice（跌停板价）,
+    OpenInterest（持仓量）,
+    Turnover（成交金额）,
+    PreClosePrice (昨收盘),
+    PreOpenInterest (昨持仓),
+    PreSettlementPrice (上次结算价)
 
 
 ## 知识产权
