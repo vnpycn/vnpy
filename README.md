@@ -447,10 +447,10 @@ VNPY仿真柜台设计的原则就是无需在原实盘策略代码做任何修�
 
 ## 附加课程3：《VNPY CTP  Python框架接入VNPY仿真柜台实现回测步骤》
 
+把VNPY CTP开源框架下的所有CTP文件替换为VNPY仿真柜台提供的同名DLL文件，即可实现回测。
 
-待定
-我们只用VNPY开源框架中的CTP接口，通过替换CTP DLL来实现回测
 
+ 
 
 ## 版权说明
 VNPY仿真柜台版权归http://www.vnpy.cn 经营者所有
