@@ -402,7 +402,37 @@ VNPY仿真柜台设计的原则就是无需在原实盘策略代码做任何修�
 
 ## 附加课程2：《快期接入VNPY仿真柜台原理实现》
 
-待定
+限制以快期为例，举例说明来理解Virtualapi的架构。
+
+快期几乎支持所有期货公司，目前各个期货公司网站都有快期的V2或V3版本，该软件定位是人工下单交易端。
+
+
+ ![VNPYlogo](http://www.vnpy.cn/v8.jpg)
+
+ ![VNPYlogo](http://www.vnpy.cn/v9.jpg)
+ 
+ 下载后安装完毕，桌面出现图标
+ ![VNPYlogo](http://www.vnpy.cn/v10.jpg)
+ 
+ 我们看下快期安装目录，其实这不是快期真正的目录
+ 
+ 我们进入到C盘用户的目录下寻找AppData目录，快期真正的核心程序保存在这个目录下，但AppData默认是隐藏的，我们需要开启文件选项
+  ![VNPYlogo](http://www.vnpy.cn/v11.jpg)
+ 
+ 
+ 再进入AppData目录，可以看到多个快期的安装目录，
+ ![VNPYlogo](http://www.vnpy.cn/v12.jpg)
+ 
+ 
+ 进入快期目录，寻找CTP 二代的库文件 thosttraderapi_se.dll、thostmduserapi_se.dll
+ ![VNPYlogo](http://www.vnpy.cn/v13.jpg)
+ ![VNPYlogo](http://www.vnpy.cn/v14.jpg)
+ 
+ 将这2个文件替换为VNPY仿真柜台的版本，然后登录快期
+ 
+ 输入任意账户和密码，登录快期成功，这样就欺骗了跨期程序登录到了VNPY仿真柜台。
+ 
+
 
 ## 附加课程3：《VNPY CTP  Python框架接入VNPY仿真柜台实现回测步骤》
 
