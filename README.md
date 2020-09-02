@@ -104,7 +104,7 @@ http://www.simnow.com.cn/static/softwareOthersDownload.action/
 
 
 
-## VNPY仿真柜台和量化交易框架的区别
+## VNPY仿真柜台和市场上其他量化交易框架的区别
 
 以上期所CTP为例，只提供原生API就是C++的，这些API大多是采用C++封装的DLL或SO库文件。
 
