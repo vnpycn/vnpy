@@ -482,7 +482,6 @@ VNPY仿真柜台设计的原则就是无需在原实盘策略代码做任何修�
 
 我你们以宏源期货的快期为例，进入到 Q72_hongyuanqh_1_standard 目录下
  
-
  
  ![VNPYlogo](http://www.vnpy.cn/v12.png)
  
