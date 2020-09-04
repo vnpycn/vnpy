@@ -171,12 +171,12 @@ VNPY仿真柜台实现量化回测对比前三类量化软件回测具备极大�
 合约上海期货交易所 ni2003   2019年11月4日~2019年12月17日这段时间的TICK数据进行回测，资金曲线图如下所示：
 
 数据回放4小时TICK
- ![VNPYlogo](http://www.vnpy.cn/f1.png?t=1)
- ![VNPYlogo](http://www.vnpy.cn/f2.png?t=1)
+ ![VNPYlogo](http://www.vnpy.cn/f1.png?t=2)
+ ![VNPYlogo](http://www.vnpy.cn/f2.png?t=2)
  
 数据回放至2019年11月7日
- ![VNPYlogo](http://www.vnpy.cn/f3.png?t=1)
- ![VNPYlogo](http://www.vnpy.cn/f4.png?t=1)
+ ![VNPYlogo](http://www.vnpy.cn/f3.png?t=2)
+ ![VNPYlogo](http://www.vnpy.cn/f4.png?t=2)
 
 数据回放至2019年12月17日
  ![VNPYlogo](http://www.vnpy.cn/f5.png?t=2)
