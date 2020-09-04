@@ -173,6 +173,7 @@ VNPY仿真柜台实现量化回测对比前三类量化软件回测具备极大�
 数据回放4小时TICK
  ![VNPYlogo](http://www.vnpy.cn/f1.png?t=1)
  ![VNPYlogo](http://www.vnpy.cn/f2.png?t=1)
+ 
 数据回放至2019年11月7日
  ![VNPYlogo](http://www.vnpy.cn/f3.png?t=1)
  ![VNPYlogo](http://www.vnpy.cn/f4.png?t=1)
