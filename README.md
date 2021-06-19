@@ -1,6 +1,12 @@
-# vnpy
+# vnpy 官方开源项目
 
-VNPY推出全新VNTrader产品
+
+![VNPYlogo](http://www.vnpy.cn/comm/assets/uploads/files/1596162847252-48bb2191-376d-42d3-85d0-4e8556587c6f-%E5%9B%BE%E7%89%87.png)
+ 
+ 
+VNPY2021年再次升级，重点在于期货CTP接口框架作为重点， 
+
+除本页面的开源项目外，VNPY于2021年开始推出全新VNTrader产品开源项目，欢迎大家FORK下载使用。
 
 VNTrader 开源地址
 
@@ -38,8 +44,6 @@ VNPY知乎专栏 https://www.zhihu.com/org/vnpy/zvideos/
 
 
 
- ![VNPYlogo](http://www.vnpy.cn/comm/assets/uploads/files/1596162847252-48bb2191-376d-42d3-85d0-4e8556587c6f-%E5%9B%BE%E7%89%87.png)
- 
 ## VNPY官网 ：
 http://www.vnpy.cn
 
