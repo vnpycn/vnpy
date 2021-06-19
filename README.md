@@ -1,5 +1,33 @@
 # vnpy
 
+VNPY推出全新VNTrader产品
+
+VNTrader是VNPY官方推出的一款国内期货量化交易开源软件， 基于MIT开源协议，任何机构和个人可以免费下载和使用，无需付费。
+
+抛弃历史上出现的大杂烩版本，专门面向国内合规市场，面向商品期货、股指期货实现程序化交易CTP接口的专属版本，符合“精简、高性能、精细化回测、功能强大、入门更容易”等特点。
+
+基于CTP接口的开源性，打破收费软件垄断，采用VNTrader开源项目也可解决自己造轮子导致周期长门槛高的问题。 VNTrader是专门针对商品期货CTP接口的GUI窗口程序，支持多个Python策略组成策略池，支持回测，支持多周期量化交易。
+ 
+VNTrader客户端开源代码 VNTrader是VNPY官方提供的CTP开源项目客户端源代码， 支持国内149家期货公司的CTP接入， 支持股指期货，股指期权、商品期货、商品期权的程序化交易和量化交易的仿真回测。
+
+全新架构，性能再次升级，python的便捷,C++性能加持，比老版本更好用，性能提升300%以上，全新系统命名未VNTrader，属于VNPY官方发布的重点全新架构的产品。
+
+ 最近会有大的更新，VNTrader的底层C++代码很快会开放出来，目前开放Python部份，而且功能在整理，这个是一个有具大性能提升大版本。
+
+VNPY官方网站 http://www.vnpy.cn
+
+VNPY知乎专栏 https://www.zhihu.com/org/vnpy/zvideos/
+
+官方QQ群： 256163463
+
+实盘支持（手续费很低） http://www.kaihucn.cn
+
+仿真账户支持 (仅工作日白天注册，支持股指期货、股指期权、商品期货、商品期权仿真交易) http://www.simnow.com.cn
+
+重点： 在未来 VNTrader 将继承http://www.virtualapi.cn 的强大功能，具体可以见 http://www.gucps.cn 完全不同于历史老版本，这个版本不仅性能优异，开源，而且结合C++的特点，结合底层仿真（获得国家发明专利）成为程序化交易最佳利器。
+
+
+
  ![VNPYlogo](http://www.vnpy.cn/comm/assets/uploads/files/1596162847252-48bb2191-376d-42d3-85d0-4e8556587c6f-%E5%9B%BE%E7%89%87.png)
  
 ## VNPY官网 ：
